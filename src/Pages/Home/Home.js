@@ -19,7 +19,6 @@ const Home = () => {
   const [amount, setAmount] = useState(0);
   const countValue = useSelector(state => state.counter.value);
   const dispatch = useDispatch();
-  console.log(amount);
 
   return (
     <View style={styles.container}>
